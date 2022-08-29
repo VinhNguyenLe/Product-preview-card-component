@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+    #root {
+        padding: 20px;
+    }
+    .wrap {
+        flex-direction: column;
+        height: auto;
+    }
+    .img__desktop {
+        display: none;
+    }
+
+    .img__mobile {
+        display: block;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    h4,
+    span,
+    p,
+    h1,
+    h2,
+    b {
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #root {
+        padding: 14px;
+    }
+}
